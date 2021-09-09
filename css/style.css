@@ -2,4 +2,244 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position-y: center;
+}
+
+footer {
+    background-color: black;
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+/* *****NAVBAR***** */
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+nav img {
+    padding-top: 5px;
+}
+
+nav ul {
+    text-align: center;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+}
+
+nav li a {
+    color: white;
+    padding: 7px 13px;
+}
+
+nav .sign_in_btn {
+    text-align: right;
+}
+
+/* *****SEZIONE HERO***** */
+
+.hero_section {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+.container .hero_section {
+    float: none;
+}
+
+.hero_section h1 {
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.hero_section p {
+    padding-bottom: 20px;
+}
+
+.btn_container {
+    padding: 10px 0;
+}
+
+.btn_container a {
+    margin: 0 13px;
+}
+
+.btn_container span {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/* ****SEZIONE FOTO CON PARAGRAFO**** */
+
+.img_text_container {
+    padding: 60px 0;
+}
+
+.img_boxsize {
+    width: 400px;
+    margin-left: 190px;
+}
+
+.img_section img {
+    width: 100%;
+}
+
+.text_section *{
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.text_section p {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+/* ****BOTTOM SECTION MAIN**** */
+
+.bottom_section {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bottom_section p {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.bottom_section h2 {
+    font-size: 25px;
+}
+
+.text_bottom_section {
+    width: 80%;
+    margin: auto;
+}
+
+.link_bottom_section img {
+    width: 40%;
+    position: relative;
+    top: 25px;
+}
+
+.link_bottom_section h3 {
+    padding-bottom: 30px;
+}
+
+.link_bottom_section span {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.link_bottom_section a {
+    color: white;
+    background-color: rgb(61, 126, 180);
+}
+
+/* ****FOOTER**** */
+
+.footer_container {
+    color: white;
+    padding-top: 50px;
+}
+
+.footer_container h3 {
+    color: rgb(61, 126, 180);
+    padding-right: 120px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.footer_container img {
+    width: 17px;
+    border-radius: 3px;
+}
+
+.footer_container p {
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 7px;
+}
+
+.footer_container i {
+    padding: 0 15px;
+    margin-left: -15px;
+}
+
+.footer_container ul{
+    list-style: none;
+}
+
+/********** Classi Utilities ***********/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col_"] {
+    float: left;
+}
+
+/* .float_right {
+    float: right;
+} */
+
+/* Larghezza colonne */
+
+.col_1-6 {
+    width: calc(100% / 6);
+}
+
+.col_2-6 {
+    width: calc(100% / 6 * 2);
+}
+
+.col_4-6 {
+    width: calc(100% / 6 * 4);
+}
+
+/* Stili bottoni */
+
+.btn_small {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.btn_max {
+    padding: 8px 17px 8px 13px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.btn_bg_white {
+    background-color: white;
+    color: black;
 }
